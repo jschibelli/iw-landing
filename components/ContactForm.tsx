@@ -1,3 +1,4 @@
+'use client';
 import React, { useState } from 'react';
 import { Box, Typography, TextField, Button, Stack, Alert } from '@mui/material';
 
@@ -23,7 +24,7 @@ const ContactForm = () => {
           <TextField label="Email" name="email" type="email" required fullWidth />
           <TextField label="Message" name="message" required fullWidth multiline rows={4} />
           {error && <Alert severity="error">{error}</Alert>}
-          {submitted && <Alert severity="success">Thank you! We'll be in touch soon.</Alert>}
+          {submitted && <Alert severity="success">Thank you! We&apos;ll be in touch soon.</Alert>}
           <Button type="submit" variant="contained" color="primary" size="large">Send Message</Button>
         </Stack>
       </form>

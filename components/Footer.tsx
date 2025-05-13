@@ -5,7 +5,7 @@ import TwitterIcon from '@mui/icons-material/Twitter';
 import LinkedInIcon from '@mui/icons-material/LinkedIn';
 
 const Footer = () => (
-  <Box sx={{ py: 4, bgcolor: 'neutral.light', textAlign: 'center' }}>
+  <Box sx={{ py: 4, bgcolor: 'grey.100', textAlign: 'center' }}>
     <Stack direction="row" spacing={2} justifyContent="center" mb={1}>
       <IconButton href="#" aria-label="Facebook"><FacebookIcon /></IconButton>
       <IconButton href="#" aria-label="Twitter"><TwitterIcon /></IconButton>

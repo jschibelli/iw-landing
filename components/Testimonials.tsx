@@ -13,7 +13,7 @@ const testimonials = [
 ];
 
 const Testimonials = () => (
-  <Box sx={{ py: 8, bgcolor: 'neutral.light' }}>
+  <Box sx={{ py: 8, bgcolor: 'grey.100' }}>
     <Typography variant="h4" align="center" fontWeight={600} gutterBottom>
       What Our Clients Say
     </Typography>

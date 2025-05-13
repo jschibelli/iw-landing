@@ -21,7 +21,7 @@ export const getServerSideProps: GetServerSideProps = async ({ params }) => {
   };
 };
 
-export default function LandingPage({ tenantConfig }: { tenantConfig: any }) {
+export default function LandingPage() {
   return (
     <main>
       <Hero />
